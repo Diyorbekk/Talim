@@ -7,6 +7,7 @@
           rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="fonts/font-awesome.min.css">
     <title>Main</title>
 </head>
 <body>
@@ -14,7 +15,8 @@
     <div class="nav-panel">
         <div class="nav-panel-box">
             <ul class="nav-panel-ul mt-5">
-                <a href="#" class="nav-panel-items text-decoration-none d-flex align-items-center px-3 py-3">
+                <a href="statistic.html"
+                   class="nav-panel-items text-decoration-none d-flex align-items-center px-3 py-3">
                     <svg xmlns="http://www.w3.org/2000/svg" class="nav-panel-icon ml-1 mr-3" width="19.375"
                          height="19.375"
                          viewBox="0 0 19.375 19.375">
@@ -37,7 +39,8 @@
 
                     <p class="nav-panel-text">Статистика</p>
                 </a>
-                <a href="#" class="nav-panel-items text-decoration-none d-flex align-items-center px-3 py-3 active">
+                <a href="provinces-and-districts.html"
+                   class="nav-panel-items text-decoration-none d-flex align-items-center px-3 py-3 active">
                     <svg xmlns="http://www.w3.org/2000/svg" class="nav-panel-icon ml-1 mr-3" width="20" height="20"
                          viewBox="0 0 20 20">
                         <g transform="translate(7.78 2.789)">
@@ -51,7 +54,7 @@
 
                     <p class="nav-panel-text">Вилоятлар ва туманлар</p>
                 </a>
-                <a href="#" class="nav-panel-items text-decoration-none d-flex align-items-center px-3 py-3">
+                <a href="colleges.html" class="nav-panel-items text-decoration-none d-flex align-items-center px-3 py-3">
                     <svg xmlns="http://www.w3.org/2000/svg" class="nav-panel-icon ml-1 mr-3" width="20.465"
                          height="16.303"
                          viewBox="0 0 20.465 16.303">
@@ -140,42 +143,166 @@
     </div>
 
     <div class="body-main">
-        <div class="container-fluid p-5">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="statistic-info-box all-info-box p-md-5">
-                        <img src="images/group-person-2.svg" class="mb-3" alt="svg">
+        <div class="panel-top">
+            <div class="panel-top-fixed py-2 px-5">
+                <div class="panel-top-items-box">
+                    <img src="images/notification-icon.svg" alt="svg">
 
-                        <p class="statistic-info-box-text">Hammasi:</p>
-
-                        <p class="statistic-info-box-num-text">120</p>
-
+                    <div class="user-cabinet">
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="statistic-info-box readers-info-box p-md-5">
-                        <img src="images/homework.svg" class="mb-3" alt="svg">
-                        <p class="statistic-info-box-text">O'qiyotganlar:</p>
-                        <p class="statistic-info-box-num-text">64</p>
 
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="statistic-info-box graduates-info-box p-md-5">
-                        <img src="images/medal.svg" class="mb-3" alt="svg">
-                        <p class="statistic-info-box-text">Tugatganlar:</p>
-                        <p class="statistic-info-box-num-text">56</p>
-
-                    </div>
-                </div>
             </div>
         </div>
-
         <div class="container-fluid p-5">
-            <div class="col-12 px-0">
-                <div class="statistic-container-info p-md-5">
-                    <img src="images/big-image.svg" class="w-100 h-100" alt="svg">
+            <div class="col-12 px-0 table-box">
+                <div class="table-top-panel d-flex align-items-center justify-content-between px-2 py-3">
+                    <ul class="d-flex">
+                        <li class="col px-0 mx-3 table-top-panel-items active">
+                            <a href="#" class="text-decoration-none table-top-panel-items-link">Вилоятлар</a>
+                        </li>
+                        <li class="col px-0 mx-3 table-top-panel-items">
+                            <a href="#" class="text-decoration-none table-top-panel-items-link">Туманлар</a>
+                        </li>
+                    </ul>
+
+
+                    <button type="button" class="btn adding-button">
+                        Янги кушиш <i class="fa fa-plus ml-2 mt-1"></i>
+                    </button>
                 </div>
+
+
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                        <tr>
+                            <th class="lightblue-color w-2" scope="col">#</th>
+                            <th colspan="2" class="darkblue-color">Вилоят номи</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th class="lightblue-color w-2" scope="row">1</th>
+                            <td class="darkblue-color">Andijon Viloyati</td>
+                            <td class="darkblue-color d-flex align-items-center justify-content-end">
+                                <button class="btn btn-edit mr-3">
+                                    <img src="images/icon-create.svg" alt="svg">
+                                </button>
+
+                                <button class="btn btn-delete focus-none">
+                                    <img src="images/icon-delete.svg" alt="svg">
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="lightblue-color w-2" scope="row">2</th>
+                            <td class="darkblue-color">Fargʻona viloyati</td>
+                            <td class="darkblue-color d-flex align-items-center justify-content-end">
+                                <button class="btn btn-edit mr-3">
+                                    <img src="images/icon-create.svg" alt="svg">
+                                </button>
+
+                                <button class="btn btn-delete focus-none">
+                                    <img src="images/icon-delete.svg" alt="svg">
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="lightblue-color w-2" scope="row">3</th>
+                            <td class="darkblue-color">Jim Halpert</td>
+                            <td class="darkblue-color d-flex align-items-center justify-content-end">
+                                <button class="btn btn-edit mr-3">
+                                    <img src="images/icon-create.svg" alt="svg">
+                                </button>
+
+                                <button class="btn btn-delete focus-none">
+                                    <img src="images/icon-delete.svg" alt="svg">
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="lightblue-color w-2" scope="row">4</th>
+                            <td class="darkblue-color">Pam Beesly</td>
+                            <td class="darkblue-color d-flex align-items-center justify-content-end">
+                                <button class="btn btn-edit mr-3">
+                                    <img src="images/icon-create.svg" alt="svg">
+                                </button>
+
+                                <button class="btn btn-delete focus-none">
+                                    <img src="images/icon-delete.svg" alt="svg">
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="lightblue-color w-2" scope="row">5</th>
+                            <td class="darkblue-color">Stanley Hudson</td>
+                            <td class="darkblue-color d-flex align-items-center justify-content-end">
+                                <button class="btn btn-edit mr-3">
+                                    <img src="images/icon-create.svg" alt="svg">
+                                </button>
+
+                                <button class="btn btn-delete focus-none">
+                                    <img src="images/icon-delete.svg" alt="svg">
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="lightblue-color w-2" scope="row">6</th>
+                            <td class="darkblue-color">Kevin Malone</td>
+                            <td class="darkblue-color d-flex align-items-center justify-content-end">
+                                <button class="btn btn-edit mr-3">
+                                    <img src="images/icon-create.svg" alt="svg">
+                                </button>
+
+                                <button class="btn btn-delete focus-none">
+                                    <img src="images/icon-delete.svg" alt="svg">
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="lightblue-color w-2" scope="row">7</th>
+                            <td class="darkblue-color">Angela Martin</td>
+                            <td class="darkblue-color d-flex align-items-center justify-content-end">
+                                <button class="btn btn-edit mr-3">
+                                    <img src="images/icon-create.svg" alt="svg">
+                                </button>
+
+                                <button class="btn btn-delete focus-none">
+                                    <img src="images/icon-delete.svg" alt="svg">
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="lightblue-color w-2" scope="row">8</th>
+                            <td class="darkblue-color">Phyllis Vance</td>
+                            <td class="darkblue-color d-flex align-items-center justify-content-end">
+                                <button class="btn btn-edit mr-3">
+                                    <img src="images/icon-create.svg" alt="svg">
+                                </button>
+
+                                <button class="btn btn-delete focus-none">
+                                    <img src="images/icon-delete.svg" alt="svg">
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="lightblue-color w-2" scope="row">9</th>
+                            <td class="darkblue-color">Meredith Palmer</td>
+                            <td class="darkblue-color d-flex align-items-center justify-content-end">
+                                <button class="btn btn-edit mr-3">
+                                    <img src="images/icon-create.svg" alt="svg">
+                                </button>
+
+                                <button class="btn btn-delete focus-none">
+                                    <img src="images/icon-delete.svg" alt="svg">
+                                </button>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+
             </div>
         </div>
     </div>
