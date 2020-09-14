@@ -80,3 +80,104 @@
 
 
 /* Login HTML CSS End */
+
+.page-body {
+    display: flex;
+    align-items: start;
+    background: #FAFDFF;
+}
+
+.nav-panel {
+    position: relative;
+    width: 270px;
+}
+
+.nav-panel-box {
+    background: #174A84;
+    position: fixed;
+    height: 100%;
+}
+
+.nav-panel-ul {
+    height: 100%;
+}
+
+.nav-panel-text {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: white;
+}
+
+.nav-panel-icon path {
+    fill: white;
+}
+
+.nav-panel-items.active {
+    background: #103C6E;
+    position: relative;
+}
+
+.nav-panel-items.active::after {
+    content: '';
+    position: absolute;
+    background: #AAFFBE;
+    width: 6px;
+    height: 100%;
+    left: 0;
+}
+
+.nav-panel-items.active .nav-panel-icon path {
+    fill: #AAFFBE;
+}
+
+.nav-panel-items.active .nav-panel-text{
+    color: #AAFFBE;
+}
+
+.body-main {
+    width: 100%;
+}
+
+.statistic-info-box {
+    border-radius: 13px;
+    height: 280px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.all-info-box {
+    background: transparent linear-gradient(91deg, #C694F9 0%, #AB64F4 100%) 0 0 no-repeat padding-box;
+}
+
+.readers-info-box {
+    background: transparent linear-gradient(90deg, #6AA5E3 0%, #6866E9 100%) 0 0 no-repeat padding-box;
+}
+
+.graduates-info-box {
+    background: transparent linear-gradient(90deg, #FEB683 0%, #FF8993 100%) 0 0 no-repeat padding-box;
+}
+
+.statistic-info-box-text {
+    font-size: 27px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 0;
+}
+
+.statistic-info-box-num-text {
+    font-size: 41px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 0;
+}
+
+.statistic-container-info {
+/*    background-image: url("../images/big-image.svg");*/
+    width: 100%;
+    box-shadow: 0 3px 16px #0A4B6D14;
+    border-radius: 7px;
+}
+
