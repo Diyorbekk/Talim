@@ -8,12 +8,15 @@
 
 /* Login HTML CSS Start */
 
+body {
+    font-family: 'Lato', sans-serif;
+}
+
 .login-box {
     width: 440px;
     border-radius: 10px;
     height: 550px;
     position: relative;
-    font-family: 'Open Sans', sans-serif;
     box-shadow: 0 0 12px #0A4B6D29;
 }
 
@@ -47,7 +50,6 @@
 
 .login-password-forgot {
     color: #174A84;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     margin: 20px 0 10px 0;
 }
@@ -295,5 +297,24 @@
 }
 .w-2{
     width: 2%;
+}
+
+.full-page {
+    background: #FAFDFF;
+}
+
+.title-list {
+    font-size: 21px;
+    font-weight: 900;
+    color: #174A84;
+}
+
+.search-input .form-control{
+    border-color: #174A84;
+}
+
+.search-input .input-group-text {
+    border-color: #174A84;
+    background: transparent;
 }
 
