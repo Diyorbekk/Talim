@@ -269,6 +269,10 @@ body {
     color: #174A84;
 }
 
+.darkblue-bg {
+    background: #174A84;
+}
+
 .lightblue-color {
     color: #A5C9FF;
 }
@@ -347,4 +351,28 @@ body {
 .form-blue label {
     font-size: 14px;
     font-weight: 600;
+    color: #174A84;
+}
+
+.file-field.medium .file-path-wrapper {
+    height: 3rem; }
+.file-field.medium .file-path-wrapper .file-path {
+    height: 2.8rem; }
+
+.file-field.big-2 .file-path-wrapper {
+    height: 3.7rem; }
+.file-field.big-2 .file-path-wrapper .file-path {
+    height: 3.5rem; }
+
+.file-btn {
+    height: 38px;
+    border: 1px solid #174A84;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.span-input-file {
+    height: 38px;
 }
