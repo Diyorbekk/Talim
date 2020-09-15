@@ -318,3 +318,33 @@ body {
     background: transparent;
 }
 
+.account-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: #174A84;
+}
+
+.account-info-text {
+    font-size: 14px;
+    color: #36A0F4;
+}
+
+.border-A5C9FF {
+    border-top: 1px solid #A5C9FF;
+}
+
+.qr-code-box{
+    border: 1px solid #A5C9FF;
+    width: 190px;
+    height: 190px;
+    padding: -10px;
+}
+
+.form-blue .form-control {
+    border: 1px solid #A5C9FF;
+}
+
+.form-blue label {
+    font-size: 14px;
+    font-weight: 600;
+}

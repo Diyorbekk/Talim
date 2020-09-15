@@ -8080,6 +8080,10 @@ button.bg-dark:focus {
   min-height: 100vh !important;
 }
 
+.min-vh-75 {
+  min-height: 75vh !important;
+}
+
 .vw-100 {
   width: 100vw !important;
 }
