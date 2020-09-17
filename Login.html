@@ -8,44 +8,58 @@
     <link rel="stylesheet" href="css/main.css">
     <title>Login</title>
 </head>
-<body style="background: #FAFDFF">
-<header class="d-flex justify-content-center align-items-center" style="height: 100vh;">
-    <div class="py-5 px-4 align-items-center justify-content-center bg-white login-box">
-        <div class="login-boxBgTop"></div>
+<body class="login-body">
+<header class="d-flex justify-content-center align-items-center flex-column min-vh-100" >
+    <img src="images/Logo-center.png" class="mb-5" alt="png">
 
-        <div class="d-flex justify-content-center flex-column" style="height: 100%;">
-            <h4 class="text-center" style="color: #192F50;font-weight: 700;">Войти</h4>
+    <!-- Login Title Top block-section-->
+    <div class="col-md-4 text-center px-5 pb-5">
+        <p class="login-title-text darkblue-color mb-5">"Киска муддатли укув курслари" сертификатларини назорат ва мониторинг килиш ахборот тизими</p>
+    </div>
+    <!-- Form Center block-section-->
+    <div class="pt-4 pb-5 mb-5 px-4 align-items-center justify-content-center bg-white login-box">
+
+        <div class="d-flex justify-content-center flex-column h-100">
 
             <form action="" class="login-form px-3">
-
                 <div class="form-group w-100">
-                    <label for="login" class="mb-0 text-left font-weight-bolder">Логин</label>
-                    <input class="login-input" placeholder="Введите логин" id="login" type="text">
+                    <label for="login" class="mb-0 text-left font-weight-bolder darkblue-color">Имя пользователя</label>
+                    <input class="login-input form-control" placeholder="Введите логин" id="login" type="text">
                 </div>
 
                 <div class="form-group w-100">
-                    <label for="password" class="mb-0 text-left font-weight-bolder">Пароль</label>
-                    <input class="login-input" placeholder="Введите пароль" id="password" type="password">
+                    <label for="password" class="mb-0 text-left font-weight-bolder darkblue-color">Пароль</label>
+                    <input class="login-input form-control" placeholder="Введите пароль" id="password" type="password">
                 </div>
+                <button class="login-button">Кириш</button>
 
-                <label for="check" class="check-label font-weight-bolder">
-                    <input type="checkbox" class="mr-1 check-input" id="check">
-
-                    Эслаб колиш
-                </label>
-
-
-
-
-                <button class="login-button">Войти</button>
-
-                <a href="#" class="text-center login-password-forgot font-weight-bolder">Забыли парол?</a>
+                <a href="#" class="text-center login-password-forgot font-weight-bolder mb-4">Забыли парол?</a>
 
             </form>
         </div>
 
 
     </div>
+
+    <!-- Footer Login Socials Bottom block-section-->
+
+    <ul class="text-center mt-5 pt-5">
+        <li>
+            <p class="login-help-texts darkblue-color number-title mb-0">Служба технической поддержки:</p>
+        </li>
+        <li>
+            <p class="login-help-texts darkblue-color number-login">(+998 71) 244-03-58</p>
+        </li>
+        <li class="d-flex align-items-center justify-content-center">
+            <a href="#" class="text-decoration-none mx-3">
+                <img src="images/tg-logo.svg" alt="svg">
+            </a>
+            <a href="#" class="text-decoration-none mx-3">
+                <img src="images/social-icon.svg" alt="svg">
+            </a>
+        </li>
+    </ul>
+
 </header>
 
 
