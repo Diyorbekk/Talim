@@ -115,6 +115,8 @@ body {
     background-size: auto 100%;
     background-position: right;
     background-color: #FAFDFF;
+    background-attachment: fixed;
+    min-height: 100vh;
 }
 
 .nav-panel {
@@ -338,6 +340,8 @@ body {
     background-size: auto 100%;
     background-position: right;
     background-color: #FAFDFF;
+    background-attachment: fixed;
+    min-height: 100vh;
 }
 
 .title-list {
@@ -408,4 +412,9 @@ body {
 
 .span-input-file {
     height: 38px;
+}
+
+.nav-panel-bottom-img {
+    bottom: 6%;
+    left: 4%;
 }
